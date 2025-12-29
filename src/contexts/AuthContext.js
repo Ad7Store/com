@@ -1,5 +1,7 @@
+'use client'
+
 import { createContext, useState, useContext, useEffect, useCallback } from 'react'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 import Cookies from 'js-cookie'
 import axios from 'axios'
 import { toast } from 'react-hot-toast'
